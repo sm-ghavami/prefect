@@ -2,8 +2,8 @@ name: Windows tests
 
 on:
   workflow_dispatch: {}
-  schedule:
-    - cron: '0 16 * * *'  # every day at 4 p.m. UTC / 9 a.m. PDT
+  # schedule:
+  #   - cron: '0 16 * * *'  # every day at 4 p.m. UTC / 9 a.m. PDT
 
 permissions: {}
 
